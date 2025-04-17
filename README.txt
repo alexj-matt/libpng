@@ -16,7 +16,7 @@ If they have been modified, the derivatives are copyright Glenn Randers-Pehrson
 and are released under the same licenses as the originals.  Several of
 the original files (libpng_read_fuzzer.options, png.dict, project.yaml)
 had no licensing information; we assumed that these were under the Chromium
-license. Any new files are released under the libpng license (see png.h).
+license. Any new files are released under the libpng license (see png.h).,
 
 The files are
                             Original
