@@ -1,0 +1,9 @@
+--- Dockerfile.bak	2025-04-27 13:13:23.425596027 +0200
++++ Dockerfile	2025-04-27 16:27:29.385885620 +0200
+@@ -20,5 +20,5 @@
+ 
+ RUN git clone --depth 1 https://github.com/madler/zlib.git
+ RUN git clone --depth 1 https://github.com/pnggroup/libpng.git
+-RUN cp libpng/contrib/oss-fuzz/build.sh $SRC
++COPY build.sh $SRC
+ WORKDIR libpng
